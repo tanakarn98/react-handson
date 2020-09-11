@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Top from "./screens/Top";
 import NavBar from "./components/NavBar";
-import Quiz from "./components/Quiz";
+import Quiz from "./screens/Quiz";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
